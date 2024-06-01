@@ -39,7 +39,7 @@ export default function AudioPlayer() {
   };
 
   return (
-    <div className="flex items-center max-w-3xl mx-auto rounded-full gap-6 bg-black/90 px-4 py-4 shadow shadow-slate-900/80 ring-1 ring-slate-900/5 backdrop-blur-sm md:px-6">
+    <div className="flex items-center max-w-4xl mx-auto rounded-full gap-6 bg-white px-4 py-4 shadow shadow-slate-100/80 ring-1 ring-slate-900/5 backdrop-blur-sm md:px-6">
       <PlayButton isPlaying={player.playing} onPlayToggle={onPlayToggle} />
       <div className="flex flex-col gap-2 flex-1">
         <h2 className="text-white font-bold text-md">

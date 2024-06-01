@@ -23,7 +23,7 @@ export default function AudioSlider({
         className={cn("w-[100%]")}
       />
 
-      <span className="text-xs text-white shrink-0 text-muted-foreground">
+      <span className="text-xs shrink-0 text-muted-foreground">
         {formatTime(value)} / {formatTime(max)}
       </span>
     </div>
